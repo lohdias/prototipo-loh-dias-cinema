@@ -2,7 +2,8 @@
 
 **Projeto:** Protótipo de Apresentação — Loh Dias Fotografia  
 **Conceito:** *“O tempo passa. O amor fica.”*  
-**Isolamento:** Pasta e publicação totalmente independentes (`PROTOTIPO SITE LOH CINEMA`). O site oficial (`lohdiasfotografia.com.br`), o código em `SISTEMA\SITE LOH DIAS` e o banco de dados não foram alterados.
+**Endereço publicado (acesso livre, sem login):** https://lohdias.github.io/prototipo-loh-dias-cinema/  
+**Isolamento:** Pasta e publicação totalmente independentes (`PROTOTIPO SITE LOH CINEMA` → repositório público isolado `lohdias/prototipo-loh-dias-cinema`). O site oficial (`lohdiasfotografia.com.br`), o código em `SISTEMA\SITE LOH DIAS` e o banco de dados não foram alterados.
 
 ---
 
@@ -25,13 +26,14 @@ Nenhuma biblioteca externa pesada de animação (GSAP, Motion, Three.js) foi emp
 
 **Ambiente de medição:** Google Chrome Headless via Chrome DevTools Protocol (`PerformanceObserver` nativo para `largest-contentful-paint` e `layout-shift`, inspeção de rede e auditoria de DOM).
 
-| Métrica / Verificação | Meta Definida | Resultado Medido (Celular `390×844`, DPR 2) | Resultado Medido (Desktop `1440×900`) |
+| Métrica / Verificação | Meta Definida | Publicado Online — Celular (`390×844`, DPR 2, anônimo s/ cache) | Publicado Online — Computador (`1440×900`, anônimo s/ cache) |
 |---|---|---|---|
-| **LCP ( Maior Pintura de Conteúdo )** | até `2.500 ms` | **`632 ms – 1.008 ms`** (local, sem cache) | **`304 ms – 676 ms`** (local, sem cache) |
-| **CLS ( Mudança Cumulativa de Layout )** | até `0,10` | **`0,0000`** | **`0,0000`** |
-| **Transferência inicial na abertura** | até `1.500 KB` | **`758 KB`** (20 requisições, incluindo fontes) | Abaixo de `850 KB` |
+| **Status HTTP sem autenticação** | `200 OK` | **`200 OK`** (CDN GitHub Pages + HTTPS) | **`200 OK`** |
+| **LCP (Maior Pintura de Conteúdo)** | até `2.500 ms` | **`1.232 ms`** (`632–1.008 ms` local) | **`1.060 ms`** (`304–676 ms` local) |
+| **CLS (Mudança Cumulativa de Layout)** | até `0,10` | **`0,0094`** (`0,0000` local) | **`0,0119`** (`0,0000` local) |
+| **Transferência inicial na abertura** | até `1.500 KB` | **`539 KB` compactados** (`18` requisições, sem vídeo) | Abaixo de `700 KB` compactados |
 | **Imagens quebradas (41 elementos `<img>`)** | `0` | **`0` quebradas** | **`0` quebradas** |
-| **Erros de Console / Exceções JS** | `0` | **`0` erros** | **`0` erros** |
+| **Erros de Console / Falhas de Rede** | `0` | **`0` erros / `0` falhas** | **`0` erros / `0` falhas** |
 | **Rolagem horizontal indesejada** | Nenhuma | `scrollWidth = 390px` (`innerWidth = 390px`) | Sem transbordo |
 
 ---
