@@ -1,0 +1,826 @@
+﻿{
+  "abertura-newborn": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/abertura-newborn-720w.avif",
+        "largura": 720,
+        "altura": 480,
+        "kb": 13
+      },
+      {
+        "arquivo": "midia/fotos/abertura-newborn-1200w.avif",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 29
+      },
+      {
+        "arquivo": "midia/fotos/abertura-newborn-1800w.avif",
+        "largura": 1800,
+        "altura": 1200,
+        "kb": 49
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/abertura-newborn-720w.webp",
+        "largura": 720,
+        "altura": 480,
+        "kb": 22
+      },
+      {
+        "arquivo": "midia/fotos/abertura-newborn-1200w.webp",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 48
+      },
+      {
+        "arquivo": "midia/fotos/abertura-newborn-1800w.webp",
+        "largura": 1800,
+        "altura": 1200,
+        "kb": 83
+      }
+    ],
+    "larguraBase": 1920,
+    "alturaBase": 1280
+  },
+  "gestante-luz-arvores": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/gestante-luz-arvores-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 22
+      },
+      {
+        "arquivo": "midia/fotos/gestante-luz-arvores-1200w.avif",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 45
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/gestante-luz-arvores-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 28
+      },
+      {
+        "arquivo": "midia/fotos/gestante-luz-arvores-1200w.webp",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 59
+      }
+    ],
+    "larguraBase": 1248,
+    "alturaBase": 832
+  },
+  "gestante-detalhe-maos": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/gestante-detalhe-maos-640w.avif",
+        "largura": 640,
+        "altura": 602,
+        "kb": 24
+      },
+      {
+        "arquivo": "midia/fotos/gestante-detalhe-maos-1120w.avif",
+        "largura": 1120,
+        "altura": 1054,
+        "kb": 77
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/gestante-detalhe-maos-640w.webp",
+        "largura": 640,
+        "altura": 602,
+        "kb": 31
+      },
+      {
+        "arquivo": "midia/fotos/gestante-detalhe-maos-1120w.webp",
+        "largura": 1120,
+        "altura": 1054,
+        "kb": 109
+      }
+    ],
+    "larguraBase": 2000,
+    "alturaBase": 1882
+  },
+  "gestante-perfil-trico": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/gestante-perfil-trico-640w.avif",
+        "largura": 640,
+        "altura": 918,
+        "kb": 9
+      },
+      {
+        "arquivo": "midia/fotos/gestante-perfil-trico-1120w.avif",
+        "largura": 1120,
+        "altura": 1607,
+        "kb": 21
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/gestante-perfil-trico-640w.webp",
+        "largura": 640,
+        "altura": 918,
+        "kb": 12
+      },
+      {
+        "arquivo": "midia/fotos/gestante-perfil-trico-1120w.webp",
+        "largura": 1120,
+        "altura": 1607,
+        "kb": 30
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2295
+  },
+  "gestante-luz-rio": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/gestante-luz-rio-640w.avif",
+        "largura": 640,
+        "altura": 960,
+        "kb": 22
+      },
+      {
+        "arquivo": "midia/fotos/gestante-luz-rio-1200w.avif",
+        "largura": 1200,
+        "altura": 1800,
+        "kb": 47
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/gestante-luz-rio-640w.webp",
+        "largura": 640,
+        "altura": 960,
+        "kb": 28
+      },
+      {
+        "arquivo": "midia/fotos/gestante-luz-rio-1200w.webp",
+        "largura": 1200,
+        "altura": 1800,
+        "kb": 68
+      }
+    ],
+    "larguraBase": 1920,
+    "alturaBase": 2880
+  },
+  "gestante-estudio-1": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/gestante-estudio-1-640w.avif",
+        "largura": 640,
+        "altura": 939,
+        "kb": 7
+      },
+      {
+        "arquivo": "midia/fotos/gestante-estudio-1-1120w.avif",
+        "largura": 1120,
+        "altura": 1643,
+        "kb": 14
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/gestante-estudio-1-640w.webp",
+        "largura": 640,
+        "altura": 939,
+        "kb": 10
+      },
+      {
+        "arquivo": "midia/fotos/gestante-estudio-1-1120w.webp",
+        "largura": 1120,
+        "altura": 1643,
+        "kb": 24
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2347
+  },
+  "gestante-estudio-2": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/gestante-estudio-2-640w.avif",
+        "largura": 640,
+        "altura": 929,
+        "kb": 8
+      },
+      {
+        "arquivo": "midia/fotos/gestante-estudio-2-1120w.avif",
+        "largura": 1120,
+        "altura": 1625,
+        "kb": 17
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/gestante-estudio-2-640w.webp",
+        "largura": 640,
+        "altura": 929,
+        "kb": 11
+      },
+      {
+        "arquivo": "midia/fotos/gestante-estudio-2-1120w.webp",
+        "largura": 1120,
+        "altura": 1625,
+        "kb": 27
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2322
+  },
+  "gestante-estudio-leve": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/gestante-estudio-leve-640w.avif",
+        "largura": 640,
+        "altura": 918,
+        "kb": 7
+      },
+      {
+        "arquivo": "midia/fotos/gestante-estudio-leve-1120w.avif",
+        "largura": 1120,
+        "altura": 1606,
+        "kb": 14
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/gestante-estudio-leve-640w.webp",
+        "largura": 640,
+        "altura": 918,
+        "kb": 10
+      },
+      {
+        "arquivo": "midia/fotos/gestante-estudio-leve-1120w.webp",
+        "largura": 1120,
+        "altura": 1606,
+        "kb": 23
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2294
+  },
+  "parto-pele-a-pele": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/parto-pele-a-pele-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 12
+      },
+      {
+        "arquivo": "midia/fotos/parto-pele-a-pele-1280w.avif",
+        "largura": 1280,
+        "altura": 854,
+        "kb": 27
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/parto-pele-a-pele-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 17
+      },
+      {
+        "arquivo": "midia/fotos/parto-pele-a-pele-1280w.webp",
+        "largura": 1280,
+        "altura": 854,
+        "kb": 43
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 1067
+  },
+  "parto-encontro-2": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/parto-encontro-2-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 11
+      },
+      {
+        "arquivo": "midia/fotos/parto-encontro-2-1200w.avif",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 22
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/parto-encontro-2-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 15
+      },
+      {
+        "arquivo": "midia/fotos/parto-encontro-2-1200w.webp",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 35
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 1067
+  },
+  "parto-carimbo-pe": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/parto-carimbo-pe-640w.avif",
+        "largura": 640,
+        "altura": 426,
+        "kb": 7
+      },
+      {
+        "arquivo": "midia/fotos/parto-carimbo-pe-1200w.avif",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 11
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/parto-carimbo-pe-640w.webp",
+        "largura": 640,
+        "altura": 426,
+        "kb": 10
+      },
+      {
+        "arquivo": "midia/fotos/parto-carimbo-pe-1200w.webp",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 20
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 1066
+  },
+  "parto-silencio-pb": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/parto-silencio-pb-720w.avif",
+        "largura": 720,
+        "altura": 494,
+        "kb": 10
+      },
+      {
+        "arquivo": "midia/fotos/parto-silencio-pb-1280w.avif",
+        "largura": 1280,
+        "altura": 878,
+        "kb": 20
+      },
+      {
+        "arquivo": "midia/fotos/parto-silencio-pb-1600w.avif",
+        "largura": 1600,
+        "altura": 1098,
+        "kb": 79
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/parto-silencio-pb-720w.webp",
+        "largura": 720,
+        "altura": 494,
+        "kb": 14
+      },
+      {
+        "arquivo": "midia/fotos/parto-silencio-pb-1280w.webp",
+        "largura": 1280,
+        "altura": 878,
+        "kb": 38
+      },
+      {
+        "arquivo": "midia/fotos/parto-silencio-pb-1600w.webp",
+        "largura": 1600,
+        "altura": 1098,
+        "kb": 133
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 1098
+  },
+  "parto-familia-sala": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/parto-familia-sala-640w.avif",
+        "largura": 640,
+        "altura": 960,
+        "kb": 26
+      },
+      {
+        "arquivo": "midia/fotos/parto-familia-sala-1120w.avif",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 55
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/parto-familia-sala-640w.webp",
+        "largura": 640,
+        "altura": 960,
+        "kb": 34
+      },
+      {
+        "arquivo": "midia/fotos/parto-familia-sala-1120w.webp",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 81
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2400
+  },
+  "newborn-balanco": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/newborn-balanco-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 29
+      },
+      {
+        "arquivo": "midia/fotos/newborn-balanco-1280w.avif",
+        "largura": 1280,
+        "altura": 853,
+        "kb": 103
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/newborn-balanco-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 47
+      },
+      {
+        "arquivo": "midia/fotos/newborn-balanco-1280w.webp",
+        "largura": 1280,
+        "altura": 853,
+        "kb": 137
+      }
+    ],
+    "larguraBase": 2000,
+    "alturaBase": 1333
+  },
+  "newborn-perfil-detalhe": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/newborn-perfil-detalhe-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 12
+      },
+      {
+        "arquivo": "midia/fotos/newborn-perfil-detalhe-1120w.avif",
+        "largura": 1120,
+        "altura": 747,
+        "kb": 24
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/newborn-perfil-detalhe-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 17
+      },
+      {
+        "arquivo": "midia/fotos/newborn-perfil-detalhe-1120w.webp",
+        "largura": 1120,
+        "altura": 747,
+        "kb": 39
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 1067
+  },
+  "newborn-pezinhos": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/newborn-pezinhos-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 7
+      },
+      {
+        "arquivo": "midia/fotos/newborn-pezinhos-1120w.avif",
+        "largura": 1120,
+        "altura": 747,
+        "kb": 16
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/newborn-pezinhos-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 10
+      },
+      {
+        "arquivo": "midia/fotos/newborn-pezinhos-1120w.webp",
+        "largura": 1120,
+        "altura": 747,
+        "kb": 25
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 1067
+  },
+  "newborn-gemeos-pais": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/newborn-gemeos-pais-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 10
+      },
+      {
+        "arquivo": "midia/fotos/newborn-gemeos-pais-1280w.avif",
+        "largura": 1280,
+        "altura": 853,
+        "kb": 25
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/newborn-gemeos-pais-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 12
+      },
+      {
+        "arquivo": "midia/fotos/newborn-gemeos-pais-1280w.webp",
+        "largura": 1280,
+        "altura": 853,
+        "kb": 34
+      }
+    ],
+    "larguraBase": 1920,
+    "alturaBase": 1280
+  },
+  "newborn-renda-clara": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/newborn-renda-clara-640w.avif",
+        "largura": 640,
+        "altura": 960,
+        "kb": 23
+      },
+      {
+        "arquivo": "midia/fotos/newborn-renda-clara-1120w.avif",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 51
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/newborn-renda-clara-640w.webp",
+        "largura": 640,
+        "altura": 960,
+        "kb": 33
+      },
+      {
+        "arquivo": "midia/fotos/newborn-renda-clara-1120w.webp",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 80
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2400
+  },
+  "newborn-tres-geracoes": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/newborn-tres-geracoes-640w.avif",
+        "largura": 640,
+        "altura": 427,
+        "kb": 6
+      },
+      {
+        "arquivo": "midia/fotos/newborn-tres-geracoes-1200w.avif",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 13
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/newborn-tres-geracoes-640w.webp",
+        "largura": 640,
+        "altura": 427,
+        "kb": 7
+      },
+      {
+        "arquivo": "midia/fotos/newborn-tres-geracoes-1200w.webp",
+        "largura": 1200,
+        "altura": 800,
+        "kb": 19
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 1067
+  },
+  "familia-por-do-sol": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/familia-por-do-sol-640w.avif",
+        "largura": 640,
+        "altura": 960,
+        "kb": 21
+      },
+      {
+        "arquivo": "midia/fotos/familia-por-do-sol-1120w.avif",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 41
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/familia-por-do-sol-640w.webp",
+        "largura": 640,
+        "altura": 960,
+        "kb": 29
+      },
+      {
+        "arquivo": "midia/fotos/familia-por-do-sol-1120w.webp",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 63
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2400
+  },
+  "familia-maos-dadas": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/familia-maos-dadas-640w.avif",
+        "largura": 640,
+        "altura": 934,
+        "kb": 15
+      },
+      {
+        "arquivo": "midia/fotos/familia-maos-dadas-1120w.avif",
+        "largura": 1120,
+        "altura": 1635,
+        "kb": 31
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/familia-maos-dadas-640w.webp",
+        "largura": 640,
+        "altura": 934,
+        "kb": 19
+      },
+      {
+        "arquivo": "midia/fotos/familia-maos-dadas-1120w.webp",
+        "largura": 1120,
+        "altura": 1635,
+        "kb": 43
+      }
+    ],
+    "larguraBase": 1335,
+    "alturaBase": 1949
+  },
+  "familia-abraco-sofa": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/familia-abraco-sofa-640w.avif",
+        "largura": 640,
+        "altura": 960,
+        "kb": 22
+      },
+      {
+        "arquivo": "midia/fotos/familia-abraco-sofa-1120w.avif",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 44
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/familia-abraco-sofa-640w.webp",
+        "largura": 640,
+        "altura": 960,
+        "kb": 30
+      },
+      {
+        "arquivo": "midia/fotos/familia-abraco-sofa-1120w.webp",
+        "largura": 1120,
+        "altura": 1680,
+        "kb": 66
+      }
+    ],
+    "larguraBase": 1248,
+    "alturaBase": 1872
+  },
+  "familia-colo-risos": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/familia-colo-risos-640w.avif",
+        "largura": 640,
+        "altura": 944,
+        "kb": 13
+      },
+      {
+        "arquivo": "midia/fotos/familia-colo-risos-1120w.avif",
+        "largura": 1120,
+        "altura": 1652,
+        "kb": 29
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/familia-colo-risos-640w.webp",
+        "largura": 640,
+        "altura": 944,
+        "kb": 16
+      },
+      {
+        "arquivo": "midia/fotos/familia-colo-risos-1120w.webp",
+        "largura": 1120,
+        "altura": 1652,
+        "kb": 39
+      }
+    ],
+    "larguraBase": 1600,
+    "alturaBase": 2360
+  },
+  "loh-retrato-principal": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/loh-retrato-principal-640w.avif",
+        "largura": 640,
+        "altura": 884,
+        "kb": 17
+      },
+      {
+        "arquivo": "midia/fotos/loh-retrato-principal-1080w.avif",
+        "largura": 1080,
+        "altura": 1492,
+        "kb": 43
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/loh-retrato-principal-640w.webp",
+        "largura": 640,
+        "altura": 884,
+        "kb": 25
+      },
+      {
+        "arquivo": "midia/fotos/loh-retrato-principal-1080w.webp",
+        "largura": 1080,
+        "altura": 1492,
+        "kb": 73
+      }
+    ],
+    "larguraBase": 1200,
+    "alturaBase": 1658
+  },
+  "loh-com-camera": {
+    "avif": [
+      {
+        "arquivo": "midia/fotos/loh-com-camera-560w.avif",
+        "largura": 560,
+        "altura": 867,
+        "kb": 29
+      },
+      {
+        "arquivo": "midia/fotos/loh-com-camera-960w.avif",
+        "largura": 960,
+        "altura": 1487,
+        "kb": 53
+      }
+    ],
+    "webp": [
+      {
+        "arquivo": "midia/fotos/loh-com-camera-560w.webp",
+        "largura": 560,
+        "altura": 867,
+        "kb": 38
+      },
+      {
+        "arquivo": "midia/fotos/loh-com-camera-960w.webp",
+        "largura": 960,
+        "altura": 1487,
+        "kb": 78
+      }
+    ],
+    "larguraBase": 1400,
+    "alturaBase": 2168
+  }
+}

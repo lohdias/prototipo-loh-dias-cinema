@@ -1,0 +1,71 @@
+/* ==========================================================================
+   TOKENS DA MARCA — LOH DIAS FOTOGRAFIA (Manual da Marca v1.2)
+   Conceito: "O tempo passa. O amor fica."
+   ========================================================================== */
+
+/* Fontes de reserva métricas para evitar deslocamento cumulativo de layout (CLS) */
+@font-face {
+  font-family: "Cormorant Fallback";
+  src: local("Georgia"), local("Times New Roman");
+  size-adjust: 91.5%;
+  ascent-override: 96%;
+  descent-override: 26%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Jost Fallback";
+  src: local("Segoe UI"), local("Arial");
+  size-adjust: 98.5%;
+  ascent-override: 98%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
+:root {
+  /* Paleta oficial — Manual da Marca Loh Dias v1.2 */
+  --cor-osso: #F7F3EE;
+  --cor-osso-puro: #FAF7F3;
+  --cor-champanhe: #E7D8C6;
+  --cor-champanhe-suave: #EFE6DA;
+  --cor-areia: #D8C4B4;
+  --cor-argila: #A87868;
+  --cor-argila-escura: #8D5F50;
+  --cor-terra: #6E4A3E;
+  --cor-grafite: #4A423E;
+  --cor-grafite-suave: #756B65;
+  --cor-grafite-legenda: #8E837C;
+  --cor-marrom-camera: #241A15;
+  --cor-oliva: #56643A;
+
+  /* Linhas editoriais capilares e sombras orgânicas quentes */
+  --linha-sutil: rgba(110, 74, 62, 0.13);
+  --linha-forte: rgba(168, 120, 104, 0.34);
+  --sombra-gravura: 0 28px 68px -22px rgba(74, 66, 62, 0.22), 0 8px 22px -10px rgba(110, 74, 62, 0.12);
+  --sombra-detalhe: 0 20px 48px -16px rgba(36, 26, 21, 0.28);
+
+  /* Famílias tipográficas */
+  --fonte-titulo: "Cormorant Garamond", "Cormorant Fallback", Georgia, serif;
+  --fonte-interface: "Jost", "Jost Fallback", system-ui, -apple-system, sans-serif;
+
+  /* Escala tipográfica editorial (contraste deliberado entre monumental e íntimo) */
+  --texto-monumento: clamp(2.65rem, 6.5vw, 6.15rem);
+  --texto-capitulo: clamp(2.35rem, 5vw, 4.65rem);
+  --texto-secao: clamp(2.15rem, 4.1vw, 3.7rem);
+  --texto-citacao: clamp(1.65rem, 3vw, 2.65rem);
+  --texto-subtitulo: clamp(1.12rem, 1.55vw, 1.38rem);
+  --texto-corpo: clamp(1rem, 1.1vw, 1.1rem);
+  --texto-legenda: 0.84rem;
+  --texto-micro: 0.72rem;
+
+  /* Ritmo espacial e respiro */
+  --margem-pagina: clamp(1.25rem, 4.5vw, 4.5rem);
+  --largura-maxima: 1440px;
+  --espaco-secao: clamp(5.5rem, 12vw, 10.5rem);
+  --raio-gravura: 2px;
+
+  /* Curvas cinematográficas */
+  --curva-camera: cubic-bezier(0.22, 1, 0.36, 1);
+  --curva-seda: cubic-bezier(0.16, 1, 0.3, 1);
+  --curva-mascara: cubic-bezier(0.65, 0, 0.35, 1);
+}

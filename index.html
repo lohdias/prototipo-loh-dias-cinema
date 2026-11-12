@@ -1,0 +1,891 @@
+<!doctype html>
+<html lang="pt-BR" data-movimento="ativo">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Loh Dias Fotografia — O tempo passa. O amor fica. | Barreiras, BA</title>
+  <meta name="description" content="Uma experiência visual sobre o tempo, a chegada de um bebê e a memória de uma família. Fotografia de gestante, parto, newborn e família em Barreiras, Bahia, por Loh Dias.">
+  <meta name="theme-color" content="#F7F3EE">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Pré-carregamento prioritário APENAS da fotografia principal da abertura (LCP) -->
+  <link
+    rel="preload"
+    as="image"
+    type="image/avif"
+    imagesrcset="midia/fotos/abertura-newborn-720w.avif 720w, midia/fotos/abertura-newborn-1200w.avif 1200w, midia/fotos/abertura-newborn-1800w.avif 1800w"
+    imagesizes="100vw"
+    fetchpriority="high"
+  >
+
+  <!-- Tipografia editorial: Cormorant Garamond + Jost -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="midia/marca/lohdias-monograma-argila.png">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <a class="atalho-conteudo" href="#conteudo-principal">Ir para o conteúdo principal</a>
+
+  <!-- CABEÇALHO FLUTUANTE EDITORIAL -->
+  <header class="cabecalho-site" id="topo">
+    <div class="cabecalho-interno">
+      <a class="marca-topo" href="#abertura" aria-label="Loh Dias Fotografia — voltar ao início">
+        <img
+          class="logo-clara"
+          src="midia/marca/lohdias-principal-branco.png"
+          alt="Loh Dias Fotografia"
+          width="1480"
+          height="1167"
+          decoding="async"
+        >
+        <img
+          class="logo-argila"
+          src="midia/marca/lohdias-principal-argila.png"
+          alt=""
+          aria-hidden="true"
+          width="1480"
+          height="1167"
+          decoding="async"
+        >
+      </a>
+
+      <nav class="navegacao-topo" aria-label="Capítulos da experiência">
+        <a href="#jornada">A Jornada</a>
+        <a href="#portfolio">Histórias</a>
+        <a href="#silencio">Pausa</a>
+        <a href="#sobre-loh">A Loh</a>
+        <a href="#conversa" class="link-destaque-topo">Conversar</a>
+      </nav>
+
+      <div class="acoes-topo">
+        <button
+          type="button"
+          class="botao-movimento"
+          id="botao-alternar-movimento"
+          aria-pressed="false"
+          title="Pausar ou retomar movimentos suaves da página"
+        >
+          <span class="indicador-ponto" aria-hidden="true"></span>
+          <span class="rotulo-movimento" id="rotulo-movimento">Pausar movimento</span>
+        </button>
+
+        <button
+          type="button"
+          class="botao-menu-celular"
+          id="botao-menu-celular"
+          aria-expanded="false"
+          aria-controls="menu-gaveta-celular"
+          aria-label="Abrir navegação"
+        >
+          <span>Capítulos</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu enxuto para celular -->
+    <div class="gaveta-celular" id="menu-gaveta-celular" hidden>
+      <nav aria-label="Navegação móvel">
+        <a href="#jornada">01 · Do primeiro sonho ao primeiro abraço</a>
+        <a href="#portfolio">02 · Entrar em uma história</a>
+        <a href="#silencio">03 · Um momento de silêncio</a>
+        <a href="#sobre-loh">04 · Antes de fotografar, eu escuto</a>
+        <a href="#conversa">05 · Qual capítulo vocês estão vivendo?</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+    <!-- ======================================================================
+         1. ABERTURA — "UMA MEMÓRIA QUE GANHA DIMENSÃO"
+         Transformação central: de cena tela cheia para gravura editorial em Osso
+         ====================================================================== -->
+    <section class="cena-abertura" id="abertura" aria-label="Abertura — O tempo passa. O amor fica.">
+      <div class="abertura-palco">
+        <!-- Coluna editorial revelada durante a primeira rolagem -->
+        <div class="abertura-editorial" id="abertura-editorial">
+          <div class="abertura-editorial-interno">
+            <p class="etiqueta-editorial">Prólogo · Uma memória que ganha dimensão</p>
+            <h2 class="abertura-subtitulo-revelado">
+              Os primeiros dias passam depressa e não avisam.
+            </h2>
+            <p class="abertura-texto-revelado">
+              Do silêncio de quem ainda imagina o rosto ao colo que já não comporta do mesmo jeito: cada fase de uma família tem um tempo próprio — e nenhuma delas volta igual.
+            </p>
+            <div class="abertura-assinatura-revelada">
+              <img
+                src="midia/marca/lohdias-monograma-argila.png"
+                alt=""
+                aria-hidden="true"
+                width="451"
+                height="523"
+                loading="lazy"
+                decoding="async"
+              >
+              <span>Registros reais conduzidos no ritmo do bebê · Barreiras, BA</span>
+            </div>
+            <div class="abertura-acoes-reveladas">
+              <a href="#jornada" class="botao-primario">Percorrer a jornada</a>
+              <a href="#portfolio" class="botao-texto">Explorar histórias →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quadro fotográfico que se transforma de tela cheia em gravura emoldurada -->
+        <div class="abertura-quadro-envoltorio">
+          <figure class="abertura-quadro" id="abertura-quadro">
+            <!-- Camada 1: Fotografia real protagonista com movimento imperceptível de câmera -->
+            <div class="abertura-camada-foto">
+              <picture>
+                <source
+                  type="image/avif"
+                  srcset="midia/fotos/abertura-newborn-720w.avif 720w, midia/fotos/abertura-newborn-1200w.avif 1200w, midia/fotos/abertura-newborn-1800w.avif 1800w"
+                  sizes="100vw"
+                >
+                <source
+                  type="image/webp"
+                  srcset="midia/fotos/abertura-newborn-720w.webp 720w, midia/fotos/abertura-newborn-1200w.webp 1200w, midia/fotos/abertura-newborn-1800w.webp 1800w"
+                  sizes="100vw"
+                >
+                <img
+                  class="abertura-imagem"
+                  src="midia/fotos/abertura-newborn-1200w.webp"
+                  alt="Recém-nascido dormindo de lado sobre tricô areia abraçando pequeno urso creme no estúdio Loh Dias"
+                  width="1800"
+                  height="1200"
+                  fetchpriority="high"
+                  decoding="sync"
+                >
+              </picture>
+            </div>
+
+            <!-- Camada 2: Véu de luz natural (fallback CSS imediato + WebGL sutil carregado após LCP) -->
+            <div class="abertura-camada-luz" aria-hidden="true">
+              <canvas class="canvas-luz-janela" id="canvas-luz-janela"></canvas>
+            </div>
+
+            <!-- Camada 3: Cantoneiras ópticas que viram moldura fine-art -->
+            <div class="abertura-cantoneiras" aria-hidden="true">
+              <span class="canto c-se"></span>
+              <span class="canto c-sd"></span>
+              <span class="canto c-ie"></span>
+              <span class="canto c-id"></span>
+            </div>
+
+            <!-- Título monumental integrado ao espaço negativo da fotografia -->
+            <figcaption class="abertura-sobreposicao-titulo">
+              <div class="abertura-topo-meta">
+                <span>Barreiras, Bahia · Desde 2017</span>
+                <span class="separador-meta" aria-hidden="true"></span>
+                <span>Gestante · Parto · Newborn · Família</span>
+              </div>
+
+              <h1 class="titulo-monumento">
+                <span class="linha-monumento linha-1">O tempo passa.</span>
+                <span class="linha-monumento linha-2"><em>O amor fica.</em></span>
+              </h1>
+
+              <div class="abertura-rodape-cena">
+                <span class="legenda-cena-cheia">11º dia de vida · Luz suave no estúdio climatizado</span>
+                <span class="convite-rolagem" aria-hidden="true">
+                  <span class="convite-texto">Role para abrir a memória</span>
+                  <span class="fio-rolagem"></span>
+                </span>
+              </div>
+            </figcaption>
+          </figure>
+
+          <!-- Legenda de álbum que surge sob a gravura quando enquadrada -->
+          <div class="abertura-legenda-album" aria-hidden="true">
+            <span>Arquivo Loh Dias · Sessão Newborn</span>
+            <span>Temperatura controlada · Sem relógio</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. JORNADA — "DO PRIMEIRO SONHO AO PRIMEIRO ABRAÇO"
+         Palco sticky com alternância de planos no desktop + álbum vertical próprio no celular
+         ====================================================================== -->
+    <section class="secao-jornada" id="jornada" aria-labelledby="titulo-jornada">
+      <div class="conteiner">
+        <header class="cabecalho-secao cabecalho-jornada revelar-entrada">
+          <div class="fio-tempo-marcador" aria-hidden="true"><span>01</span></div>
+          <p class="etiqueta-editorial">A narrativa de uma chegada</p>
+          <h2 id="titulo-jornada" class="titulo-secao-grande">
+            Do primeiro sonho ao <em>primeiro abraço</em>
+          </h2>
+          <p class="subtitulo-secao">
+            Quatro capítulos reais registrados em sessões independentes de famílias diferentes em Barreiras — porque cada fase tem sua própria luz e nenhuma se repete.
+          </p>
+        </header>
+
+        <!-- LAYOUT DESKTOP: Palco visual sticky + capítulos em rolagem nativa -->
+        <div class="jornada-desktop-grade">
+          <!-- Mesa de luz sticky à esquerda -->
+          <div class="jornada-palco-sticky" aria-hidden="true">
+            <div class="mesa-de-luz">
+              <!-- Navegação rápida de capítulos -->
+              <div class="indice-capitulos-lateral" id="indice-capitulos-lateral">
+                <a href="#cap-espera" class="ponto-capitulo ativo" data-indice="0"><span>I</span> A espera</a>
+                <a href="#cap-encontro" class="ponto-capitulo" data-indice="1"><span>II</span> O encontro</a>
+                <a href="#cap-primeiros-dias" class="ponto-capitulo" data-indice="2"><span>III</span> Os primeiros dias</a>
+                <a href="#cap-vida-continua" class="ponto-capitulo" data-indice="3"><span>IV</span> A vida continua</a>
+              </div>
+
+              <!-- Quadro principal amplo com transição de máscara -->
+              <div class="palco-quadro-principal" id="palco-quadro-principal">
+                <!-- Preenchido e sincronizado via JS a partir de dados-site.js (com primeiro estado já renderizado) -->
+                <div class="lamina-palco ativa" data-lamina="0">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/gestante-luz-arvores-640w.avif 640w, midia/fotos/gestante-luz-arvores-1200w.avif 1200w" sizes="52vw">
+                    <source type="image/webp" srcset="midia/fotos/gestante-luz-arvores-640w.webp 640w, midia/fotos/gestante-luz-arvores-1200w.webp 1200w" sizes="52vw">
+                    <img src="midia/fotos/gestante-luz-arvores-1200w.webp" alt="" width="1200" height="800" loading="lazy" decoding="async" style="object-position: 44% 52%">
+                  </picture>
+                </div>
+                <div class="lamina-palco" data-lamina="1">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/parto-pele-a-pele-640w.avif 640w, midia/fotos/parto-pele-a-pele-1280w.avif 1280w" sizes="52vw">
+                    <source type="image/webp" srcset="midia/fotos/parto-pele-a-pele-640w.webp 640w, midia/fotos/parto-pele-a-pele-1280w.webp 1280w" sizes="52vw">
+                    <img src="midia/fotos/parto-pele-a-pele-1280w.webp" alt="" width="1280" height="854" loading="lazy" decoding="async" style="object-position: 48% 50%">
+                  </picture>
+                </div>
+                <div class="lamina-palco" data-lamina="2">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/newborn-balanco-640w.avif 640w, midia/fotos/newborn-balanco-1280w.avif 1280w" sizes="52vw">
+                    <source type="image/webp" srcset="midia/fotos/newborn-balanco-640w.webp 640w, midia/fotos/newborn-balanco-1280w.webp 1280w" sizes="52vw">
+                    <img src="midia/fotos/newborn-balanco-1280w.webp" alt="" width="1280" height="853" loading="lazy" decoding="async" style="object-position: 50% 50%">
+                  </picture>
+                </div>
+                <div class="lamina-palco" data-lamina="3">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/familia-por-do-sol-640w.avif 640w, midia/fotos/familia-por-do-sol-1120w.avif 1120w" sizes="52vw">
+                    <source type="image/webp" srcset="midia/fotos/familia-por-do-sol-640w.webp 640w, midia/fotos/familia-por-do-sol-1120w.webp 1120w" sizes="52vw">
+                    <img src="midia/fotos/familia-por-do-sol-1120w.webp" alt="" width="1120" height="1680" loading="lazy" decoding="async" style="object-position: 56% 62%">
+                  </picture>
+                </div>
+              </div>
+
+              <!-- Quadro flutuante de detalhe (contraponto de escala) -->
+              <div class="palco-quadro-detalhe" id="palco-quadro-detalhe">
+                <div class="detalhe-moldura">
+                  <div class="lamina-detalhe ativa" data-detalhe="0">
+                    <picture>
+                      <source type="image/avif" srcset="midia/fotos/gestante-detalhe-maos-640w.avif 640w, midia/fotos/gestante-detalhe-maos-1120w.avif 1120w" sizes="220px">
+                      <source type="image/webp" srcset="midia/fotos/gestante-detalhe-maos-640w.webp 640w, midia/fotos/gestante-detalhe-maos-1120w.webp 1120w" sizes="220px">
+                      <img src="midia/fotos/gestante-detalhe-maos-640w.webp" alt="" width="1120" height="1054" loading="lazy" decoding="async">
+                    </picture>
+                  </div>
+                  <div class="lamina-detalhe" data-detalhe="1">
+                    <picture>
+                      <source type="image/avif" srcset="midia/fotos/parto-carimbo-pe-640w.avif 640w, midia/fotos/parto-carimbo-pe-1200w.avif 1200w" sizes="220px">
+                      <source type="image/webp" srcset="midia/fotos/parto-carimbo-pe-640w.webp 640w, midia/fotos/parto-carimbo-pe-1200w.webp 1200w" sizes="220px">
+                      <img src="midia/fotos/parto-carimbo-pe-640w.webp" alt="" width="1200" height="800" loading="lazy" decoding="async">
+                    </picture>
+                  </div>
+                  <div class="lamina-detalhe" data-detalhe="2">
+                    <picture>
+                      <source type="image/avif" srcset="midia/fotos/newborn-perfil-detalhe-640w.avif 640w, midia/fotos/newborn-perfil-detalhe-1120w.avif 1120w" sizes="220px">
+                      <source type="image/webp" srcset="midia/fotos/newborn-perfil-detalhe-640w.webp 640w, midia/fotos/newborn-perfil-detalhe-1120w.webp 1120w" sizes="220px">
+                      <img src="midia/fotos/newborn-perfil-detalhe-640w.webp" alt="" width="1120" height="747" loading="lazy" decoding="async">
+                    </picture>
+                  </div>
+                  <div class="lamina-detalhe" data-detalhe="3">
+                    <picture>
+                      <source type="image/avif" srcset="midia/fotos/familia-maos-dadas-640w.avif 640w, midia/fotos/familia-maos-dadas-1120w.avif 1120w" sizes="220px">
+                      <source type="image/webp" srcset="midia/fotos/familia-maos-dadas-640w.webp 640w, midia/fotos/familia-maos-dadas-1120w.webp 1120w" sizes="220px">
+                      <img src="midia/fotos/familia-maos-dadas-640w.webp" alt="" width="1120" height="1635" loading="lazy" decoding="async" style="object-position: 50% 35%">
+                    </picture>
+                  </div>
+                </div>
+                <p class="legenda-detalhe-flutuante" id="legenda-detalhe-flutuante">
+                  Detalhe · O toque antes do encontro
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna de capítulos (desktop: texto com gatilhos de rolagem; celular: álbum vertical próprio completo) -->
+          <div class="jornada-capitulos-coluna">
+            <!-- CAPÍTULO I -->
+            <article class="capitulo-jornada ativo" id="cap-espera" data-capitulo-indice="0">
+              <div class="capitulo-cabecalho-meta">
+                <span class="capitulo-romano">Capítulo I</span>
+                <span class="capitulo-janela">26ª a 32ª semana · Gestação</span>
+              </div>
+
+              <!-- Composição fotográfica exclusiva para o celular (sangria lateral esquerda + detalhe sobreposto) -->
+              <div class="capitulo-composicao-celular sangria-esquerda">
+                <figure class="celular-foto-ampla">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/gestante-luz-arvores-640w.avif 640w, midia/fotos/gestante-luz-arvores-1200w.avif 1200w" sizes="92vw">
+                    <source type="image/webp" srcset="midia/fotos/gestante-luz-arvores-640w.webp 640w, midia/fotos/gestante-luz-arvores-1200w.webp 1200w" sizes="92vw">
+                    <img src="midia/fotos/gestante-luz-arvores-640w.webp" alt="Casal à espera do bebê abraçado sob contraluz dourada das árvores" width="1200" height="800" loading="lazy" decoding="async" style="object-position: 42% 55%">
+                  </picture>
+                </figure>
+                <figure class="celular-foto-detalhe">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/gestante-detalhe-maos-640w.avif 640w" sizes="42vw">
+                    <source type="image/webp" srcset="midia/fotos/gestante-detalhe-maos-640w.webp 640w" sizes="42vw">
+                    <img src="midia/fotos/gestante-detalhe-maos-640w.webp" alt="Plano fechado das mãos do pai sobre o ventre da mãe" width="640" height="602" loading="lazy" decoding="async">
+                  </picture>
+                </figure>
+              </div>
+
+              <h3 class="capitulo-titulo">A espera</h3>
+              <p class="capitulo-frase">
+                O ventre, o olhar de quem ainda está imaginando o rosto. É a única fase em que vocês já são três e ninguém ainda se viu.
+              </p>
+              <p class="capitulo-apoio">
+                Condução passo a passo, consultoria prévia de roupas e pausas tranquilas — ninguém precisa saber posar.
+              </p>
+              <a href="#conversa" class="link-capitulo-conversa" data-escolher-capitulo="gestante">
+                Conversar sobre ensaio de gestante →
+              </a>
+            </article>
+
+            <!-- CAPÍTULO II -->
+            <article class="capitulo-jornada" id="cap-encontro" data-capitulo-indice="1">
+              <div class="capitulo-cabecalho-meta">
+                <span class="capitulo-romano">Capítulo II</span>
+                <span class="capitulo-janela">Sobreaviso da 36ª semana · Parto</span>
+              </div>
+
+              <!-- Composição celular com sangria à direita -->
+              <div class="capitulo-composicao-celular sangria-direita">
+                <figure class="celular-foto-ampla">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/parto-pele-a-pele-640w.avif 640w, midia/fotos/parto-pele-a-pele-1280w.avif 1280w" sizes="92vw">
+                    <source type="image/webp" srcset="midia/fotos/parto-pele-a-pele-640w.webp 640w, midia/fotos/parto-pele-a-pele-1280w.webp 1280w" sizes="92vw">
+                    <img src="midia/fotos/parto-pele-a-pele-640w.webp" alt="Primeiro contato pele a pele entre mãe de olhos fechados e recém-nascido" width="1280" height="854" loading="lazy" decoding="async" style="object-position: 46% 50%">
+                  </picture>
+                </figure>
+                <figure class="celular-foto-detalhe">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/parto-carimbo-pe-640w.avif 640w" sizes="42vw">
+                    <source type="image/webp" srcset="midia/fotos/parto-carimbo-pe-640w.webp 640w" sizes="42vw">
+                    <img src="midia/fotos/parto-carimbo-pe-640w.webp" alt="Carimbo do pezinho do recém-nascido no antebraço do pai" width="640" height="426" loading="lazy" decoding="async">
+                  </picture>
+                </figure>
+              </div>
+
+              <h3 class="capitulo-titulo">O encontro</h3>
+              <p class="capitulo-frase">
+                O parto acontece uma vez, sem ensaio e sem segunda tomada. Registrar é a forma de você ver depois o que viveu de olhos fechados.
+              </p>
+              <p class="capitulo-apoio">
+                Presença silenciosa e respeitosa na sala de parto: a equipe médica conduz, eu acompanho sem interferir.
+              </p>
+              <a href="#conversa" class="link-capitulo-conversa" data-escolher-capitulo="parto">
+                Entender como funciona o parto →
+              </a>
+            </article>
+
+            <!-- CAPÍTULO III -->
+            <article class="capitulo-jornada" id="cap-primeiros-dias" data-capitulo-indice="2">
+              <div class="capitulo-cabecalho-meta">
+                <span class="capitulo-romano">Capítulo III</span>
+                <span class="capitulo-janela">9º ao 15º dia de vida · Newborn</span>
+              </div>
+
+              <div class="capitulo-composicao-celular sangria-esquerda">
+                <figure class="celular-foto-ampla">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/newborn-balanco-640w.avif 640w, midia/fotos/newborn-balanco-1280w.avif 1280w" sizes="92vw">
+                    <source type="image/webp" srcset="midia/fotos/newborn-balanco-640w.webp 640w, midia/fotos/newborn-balanco-1280w.webp 1280w" sizes="92vw">
+                    <img src="midia/fotos/newborn-balanco-640w.webp" alt="Recém-nascido dormindo tranquilo em pequeno balanço sobre tricô areia" width="1280" height="853" loading="lazy" decoding="async">
+                  </picture>
+                </figure>
+                <figure class="celular-foto-detalhe">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/newborn-perfil-detalhe-640w.avif 640w" sizes="42vw">
+                    <source type="image/webp" srcset="midia/fotos/newborn-perfil-detalhe-640w.webp 640w" sizes="42vw">
+                    <img src="midia/fotos/newborn-perfil-detalhe-640w.webp" alt="Detalhe próximo do perfil e cílios do mesmo recém-nascido" width="640" height="427" loading="lazy" decoding="async">
+                  </picture>
+                </figure>
+              </div>
+
+              <h3 class="capitulo-titulo">Os primeiros dias</h3>
+              <p class="capitulo-frase">
+                Entre o nono e o décimo quinto dia, o bebê ainda dorme enrolado como esteve por dentro. A janela é curta porque o corpo dele muda rápido.
+              </p>
+              <p class="capitulo-apoio">
+                Estúdio climatizado, peças higienizadas a cada sessão e tempo livre para amamentar e acalmar quantas vezes precisar.
+              </p>
+              <a href="#conversa" class="link-capitulo-conversa" data-escolher-capitulo="newborn">
+                Pré-reservar janela do newborn →
+              </a>
+            </article>
+
+            <!-- CAPÍTULO IV -->
+            <article class="capitulo-jornada" id="cap-vida-continua" data-capitulo-indice="3">
+              <div class="capitulo-cabecalho-meta">
+                <span class="capitulo-romano">Capítulo IV</span>
+                <span class="capitulo-janela">Seis meses, um ano e além · Família</span>
+              </div>
+
+              <div class="capitulo-composicao-celular sangria-direita">
+                <figure class="celular-foto-ampla proporcao-retrato-celular">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/familia-por-do-sol-640w.avif 640w, midia/fotos/familia-por-do-sol-1120w.avif 1120w" sizes="88vw">
+                    <source type="image/webp" srcset="midia/fotos/familia-por-do-sol-640w.webp 640w, midia/fotos/familia-por-do-sol-1120w.webp 1120w" sizes="88vw">
+                    <img src="midia/fotos/familia-por-do-sol-640w.webp" alt="Bebê sentado na grama sorrindo sob luz dourada de fim de tarde" width="1120" height="1680" loading="lazy" decoding="async" style="object-position: 56% 60%">
+                  </picture>
+                </figure>
+                <figure class="celular-foto-detalhe">
+                  <picture>
+                    <source type="image/avif" srcset="midia/fotos/familia-maos-dadas-640w.avif 640w" sizes="40vw">
+                    <source type="image/webp" srcset="midia/fotos/familia-maos-dadas-640w.webp 640w" sizes="40vw">
+                    <img src="midia/fotos/familia-maos-dadas-640w.webp" alt="Mãe, pai e filha pequena de mãos dadas" width="640" height="934" loading="lazy" decoding="async" style="object-position: 50% 35%">
+                  </picture>
+                </figure>
+              </div>
+
+              <h3 class="capitulo-titulo">A vida continua</h3>
+              <p class="capitulo-frase">
+                O colo já não comporta do mesmo jeito. O primeiro sorriso que responde ao seu vira passo, voz e história de família.
+              </p>
+              <p class="capitulo-apoio">
+                Do acompanhamento do primeiro ano aos retratos com quem caminha ao lado de vocês.
+              </p>
+              <a href="#conversa" class="link-capitulo-conversa" data-escolher-capitulo="familia">
+                Conversar sobre família e acompanhamento →
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. PORTFÓLIO — "ENTRAR EM UMA HISTÓRIA"
+         Galeria editorial assimétrica com expansão contínua (View Transitions API)
+         ====================================================================== -->
+    <section class="secao-portfolio" id="portfolio" aria-labelledby="titulo-portfolio">
+      <div class="conteiner">
+        <div class="portfolio-topo revelar-entrada">
+          <div>
+            <div class="fio-tempo-marcador" aria-hidden="true"><span>02</span></div>
+            <p class="etiqueta-editorial">Portfólio Editorial</p>
+            <h2 id="titulo-portfolio" class="titulo-secao-grande">
+              Entrar em uma <em>história</em>
+            </h2>
+          </div>
+
+          <div class="portfolio-topo-apoio">
+            <p>
+              Abra qualquer fotografia para vê-la expandir em sala de leitura, com os registros reais daquela sessão.
+            </p>
+            <!-- Filtros por capítulo -->
+            <div class="barra-filtros" role="tablist" aria-label="Filtrar histórias por fase">
+              <button type="button" role="tab" class="botao-filtro ativo" aria-selected="true" data-filtro="todos">Todos</button>
+              <button type="button" role="tab" class="botao-filtro" aria-selected="false" data-filtro="gestante">Gestante</button>
+              <button type="button" role="tab" class="botao-filtro" aria-selected="false" data-filtro="parto">Parto</button>
+              <button type="button" role="tab" class="botao-filtro" aria-selected="false" data-filtro="newborn">Newborn</button>
+              <button type="button" role="tab" class="botao-filtro" aria-selected="false" data-filtro="familia">Família</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grade assimétrica renderizada com curadoria -->
+        <div class="galeria-editorial" id="galeria-editorial" aria-live="polite">
+          <!-- Preenchido imediatamente por js/experiencia.js a partir da configuração central dados-site.js -->
+          <noscript>
+            <p class="aviso-sem-js">Ative o JavaScript para abrir a visualização ampliada interativa das séries do portfólio.</p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. UM MOMENTO DE SILÊNCIO
+         Contraste cinematográfico: mergulho em câmara escura, uma imagem, uma frase
+         ====================================================================== -->
+    <section class="secao-silencio" id="silencio" aria-label="Um momento de silêncio">
+      <div class="silencio-conteiner">
+        <figure class="silencio-figura revelar-entrada">
+          <div class="silencio-moldura">
+            <picture>
+              <source
+                type="image/avif"
+                srcset="midia/fotos/parto-silencio-pb-720w.avif 720w, midia/fotos/parto-silencio-pb-1280w.avif 1280w, midia/fotos/parto-silencio-pb-1600w.avif 1600w"
+                sizes="(max-width: 900px) 92vw, 74vw"
+              >
+              <source
+                type="image/webp"
+                srcset="midia/fotos/parto-silencio-pb-720w.webp 720w, midia/fotos/parto-silencio-pb-1280w.webp 1280w, midia/fotos/parto-silencio-pb-1600w.webp 1600w"
+                sizes="(max-width: 900px) 92vw, 74vw"
+              >
+              <img
+                src="midia/fotos/parto-silencio-pb-1280w.webp"
+                alt="Fotografia em preto e branco do primeiro instante de vida do recém-nascido com a mão aberta contra a luz"
+                width="1600"
+                height="1098"
+                loading="lazy"
+                decoding="async"
+              >
+            </picture>
+          </div>
+
+          <figcaption class="silencio-frase-bloco">
+            <blockquote class="silencio-frase">
+              “O parto acontece uma vez. Depois, você vê o que viveu de olhos fechados.”
+            </blockquote>
+            <span class="silencio-local">Sala de nascimento · Barreiras, Bahia</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. A LOH — "ANTES DE FOTOGRAFAR, EU ESCUTO."
+         Presença real, acolhimento de psicóloga e mãe, longe de bloco institucional
+         ====================================================================== -->
+    <section class="secao-loh" id="sobre-loh" aria-labelledby="titulo-sobre-loh">
+      <!-- Monograma Oliva decorativo em baixa opacidade conforme Manual da Marca v1.2 -->
+      <img
+        class="monograma-fundo-oliva"
+        src="midia/marca/lohdias-monograma-oliva.png"
+        alt=""
+        aria-hidden="true"
+        width="451"
+        height="523"
+        loading="lazy"
+        decoding="async"
+      >
+
+      <div class="conteiner grade-loh">
+        <div class="loh-retratos revelar-entrada">
+          <figure class="loh-retrato-maior">
+            <picture>
+              <source
+                type="image/avif"
+                srcset="midia/fotos/loh-retrato-principal-640w.avif 640w, midia/fotos/loh-retrato-principal-1080w.avif 1080w"
+                sizes="(max-width: 900px) 84vw, 38vw"
+              >
+              <source
+                type="image/webp"
+                srcset="midia/fotos/loh-retrato-principal-640w.webp 640w, midia/fotos/loh-retrato-principal-1080w.webp 1080w"
+                sizes="(max-width: 900px) 84vw, 38vw"
+              >
+              <img
+                src="midia/fotos/loh-retrato-principal-1080w.webp"
+                alt="Retrato de Loh Dias sorrindo com acolhimento vestindo blazer em tom de argila"
+                width="1080"
+                height="1492"
+                loading="lazy"
+                decoding="async"
+              >
+            </picture>
+          </figure>
+
+          <figure class="loh-retrato-camera">
+            <picture>
+              <source
+                type="image/avif"
+                srcset="midia/fotos/loh-com-camera-560w.avif 560w, midia/fotos/loh-com-camera-960w.avif 960w"
+                sizes="(max-width: 900px) 46vw, 18vw"
+              >
+              <source
+                type="image/webp"
+                srcset="midia/fotos/loh-com-camera-560w.webp 560w, midia/fotos/loh-com-camera-960w.webp 960w"
+                sizes="(max-width: 900px) 46vw, 18vw"
+              >
+              <img
+                src="midia/fotos/loh-com-camera-560w.webp"
+                alt="Loh Dias concentrada segurando sua câmera fotográfica"
+                width="960"
+                height="1487"
+                loading="lazy"
+                decoding="async"
+              >
+            </picture>
+            <figcaption>Em campo · Lente 85mm</figcaption>
+          </figure>
+        </div>
+
+        <div class="loh-narrativa revelar-entrada">
+          <div class="fio-tempo-marcador" aria-hidden="true"><span>03</span></div>
+          <p class="etiqueta-editorial">Quem está por trás da lente</p>
+          <h2 id="titulo-sobre-loh" class="titulo-secao-grande">
+            “Antes de fotografar, <em>eu escuto.</em>”
+          </h2>
+          <p class="loh-credencial">Mãe do Lucca · Psicóloga · Fotógrafa desde 2017</p>
+
+          <div class="loh-texto-corrido">
+            <p>
+              Sou a Loh Dias — mãe do Lucca, psicóloga e fotógrafa desde 2017 em Barreiras, Bahia. E uma coisa nunca ficou fora da outra.
+            </p>
+            <p>
+              Na prática, isso significa perceber quando uma mãe precisa de conversa e quando precisa de silêncio. Significa conduzir sem pressa, porque bebê não obedece a cronograma e mulher recém-parida também não.
+            </p>
+            <p>
+              Muita gente chega ao ensaio sem se reconhecer no próprio corpo. A foto verdadeira não nasce de instrução rígida — nasce de quando você respira fundo e para de se defender da câmera.
+            </p>
+          </div>
+
+          <dl class="loh-pilares">
+            <div class="pilar-item">
+              <dt>Tempo do bebê respeitado</dt>
+              <dd>Se precisar parar três vezes para mamar, trocar ou acalmar, paramos três vezes. Nenhum ensaio é apressado.</dd>
+            </div>
+            <div class="pilar-item">
+              <dt>Estúdio climatizado e higienizado</dt>
+              <dd>Temperatura controlada para recém-nascidos e higienização completa de cada tecido e apoio antes de toda sessão.</dd>
+            </div>
+            <div class="pilar-item">
+              <dt>Olhar clínico e afetuoso</dt>
+              <dd>Acolhimento real desde a escolha das roupas até a curadoria das imagens da sua família.</dd>
+            </div>
+          </dl>
+
+          <img
+            class="loh-assinatura-marca"
+            src="midia/marca/lohdias-assinatura-argila.png"
+            alt="Assinatura Loh Dias Fotografia"
+            width="800"
+            height="220"
+            loading="lazy"
+            decoding="async"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. CONVERSA — "QUAL CAPÍTULO VOCÊS ESTÃO VIVENDO?"
+         Convite visual interativo com seleção simples e WhatsApp verificado
+         ====================================================================== -->
+    <section class="secao-conversa" id="conversa" aria-labelledby="titulo-conversa">
+      <div class="conteiner">
+        <header class="cabecalho-secao cabecalho-conversa revelar-entrada">
+          <div class="fio-tempo-marcador" aria-hidden="true"><span>04</span></div>
+          <p class="etiqueta-editorial">O começo da nossa conversa</p>
+          <h2 id="titulo-conversa" class="titulo-secao-grande">
+            Qual capítulo vocês estão <em>vivendo?</em>
+          </h2>
+          <p class="subtitulo-secao">
+            Selecione o momento da sua família para ver a orientação inicial e abrir nossa conversa direta no WhatsApp.
+          </p>
+        </header>
+
+        <div class="conversa-grade revelar-entrada">
+          <!-- Seleção simples entre os 4 capítulos -->
+          <div class="seletor-capitulos" role="radiogroup" aria-label="Escolha o capítulo atual da sua família">
+            <button type="button" class="cartao-escolha ativo" role="radio" aria-checked="true" data-opcao="gestante">
+              <span class="escolha-romano">I</span>
+              <span class="escolha-corpo">
+                <strong>Gestante</strong>
+                <small>Estamos esperando o bebê</small>
+              </span>
+              <span class="escolha-seta" aria-hidden="true">→</span>
+            </button>
+
+            <button type="button" class="cartao-escolha" role="radio" aria-checked="false" data-opcao="parto">
+              <span class="escolha-romano">II</span>
+              <span class="escolha-corpo">
+                <strong>Parto</strong>
+                <small>Queremos registrar o nascimento</small>
+              </span>
+              <span class="escolha-seta" aria-hidden="true">→</span>
+            </button>
+
+            <button type="button" class="cartao-escolha" role="radio" aria-checked="false" data-opcao="newborn">
+              <span class="escolha-romano">III</span>
+              <span class="escolha-corpo">
+                <strong>Newborn</strong>
+                <small>Primeiros dias do recém-nascido</small>
+              </span>
+              <span class="escolha-seta" aria-hidden="true">→</span>
+            </button>
+
+            <button type="button" class="cartao-escolha" role="radio" aria-checked="false" data-opcao="familia">
+              <span class="escolha-romano">IV</span>
+              <span class="escolha-corpo">
+                <strong>Família</strong>
+                <small>Crescimento, acompanhamento ou retrato</small>
+              </span>
+              <span class="escolha-seta" aria-hidden="true">→</span>
+            </button>
+          </div>
+
+          <!-- Bilhete vivo preparado para envio -->
+          <div class="bilhete-conversa" id="bilhete-conversa" aria-live="polite">
+            <div class="bilhete-cabecalho-foto">
+              <figure class="bilhete-miniatura" id="bilhete-miniatura">
+                <img
+                  id="bilhete-imagem"
+                  src="midia/fotos/gestante-luz-arvores-640w.webp"
+                  alt="Capítulo selecionado: Gestante"
+                  width="640"
+                  height="427"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </figure>
+              <div>
+                <span class="bilhete-selo">Nota da Loh para esta fase</span>
+                <h3 class="bilhete-titulo" id="bilhete-titulo">Capítulo: Gestante</h3>
+              </div>
+            </div>
+
+            <p class="bilhete-orientacao" id="bilhete-orientacao">
+              A fase mais confortável costuma ser entre a 26ª e a 32ª semana, quando a barriga já desenha lindo e você ainda se movimenta com leveza.
+            </p>
+
+            <div class="campo-detalhe-opcional">
+              <label for="detalhe-conversa" id="rotulo-detalhe-conversa">
+                Com quantas semanas você está (ou qual o mês previsto)? <span>(opcional)</span>
+              </label>
+              <input
+                type="text"
+                id="detalhe-conversa"
+                name="detalhe-conversa"
+                placeholder="Ex.: Estou com 24 semanas / previsto para agosto"
+                autocomplete="off"
+              >
+            </div>
+
+            <div class="bilhete-previa-mensagem">
+              <span class="previa-rotulo">Mensagem que será preparada para o WhatsApp:</span>
+              <p id="previa-texto-whatsapp">
+                “Olá, Loh! Vi a experiência nova do site e estamos vivendo o capítulo da Gestação. Gostaria de conversar sobre disponibilidade para o nosso ensaio.”
+              </p>
+            </div>
+
+            <div class="bilhete-acoes">
+              <a
+                id="botao-enviar-whatsapp"
+                class="botao-whatsapp-principal"
+                href="https://wa.me/5577988690216?text=Ol%C3%A1%2C%20Loh!%20Vi%20a%20experi%C3%AAncia%20nova%20do%20site%20e%20estamos%20vivendo%20o%20cap%C3%ADtulo%20da%20Gesta%C3%A7%C3%A3o.%20Gostaria%20de%20conversar%20sobre%20disponibilidade%20para%20o%20nosso%20ensaio."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Conversar com a Loh no WhatsApp · (77) 98869-0216
+              </a>
+            </div>
+
+            <p class="aviso-prototipo-contato">
+              <strong>Nota transparente de protótipo:</strong> esta é uma versão demonstrativa de apresentação. Nenhum dado digitado acima é salvo em servidor; o botão abre diretamente o WhatsApp comercial oficial verificado da Loh Dias Fotografia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ EDITORIAL -->
+  <footer class="rodape-site">
+    <div class="conteiner rodape-interno">
+      <div class="rodape-marca">
+        <img
+          src="midia/marca/lohdias-principal-argila.png"
+          alt="Loh Dias Fotografia"
+          width="1480"
+          height="1167"
+          loading="lazy"
+          decoding="async"
+        >
+        <p>
+          Fotografia sensível para as fases que não se repetem — gestação, parto, newborn e história de família em Barreiras e Oeste da Bahia.
+        </p>
+      </div>
+
+      <div class="rodape-links">
+        <div>
+          <h3>Capítulos</h3>
+          <ul>
+            <li><a href="#abertura">Abertura</a></li>
+            <li><a href="#jornada">A Jornada</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#sobre-loh">Sobre a Loh</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Canais verificados</h3>
+          <ul>
+            <li><a href="https://wa.me/5577988690216" target="_blank" rel="noopener noreferrer">WhatsApp · (77) 98869-0216</a></li>
+            <li><a href="https://www.instagram.com/lohdiasfotografia/" target="_blank" rel="noopener noreferrer">Instagram · @lohdiasfotografia</a></li>
+            <li><a href="https://lohdiasfotografia.com.br/" target="_blank" rel="noopener noreferrer">Site oficial atual</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="conteiner rodape-base">
+      <span>© Loh Dias Fotografia · Barreiras, Bahia · Protótipo de direção de arte (“O tempo passa. O amor fica.”)</span>
+      <a href="#abertura">Voltar ao início ↑</a>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL / SALA DE LEITURA DE HISTÓRIA (View Transitions API + Teclado + Toque)
+       ======================================================================== -->
+  <dialog class="modal-historia" id="modal-historia" aria-labelledby="modal-titulo-historia">
+    <div class="modal-envoltorio" id="modal-envoltorio">
+      <header class="modal-topo">
+        <div class="modal-meta-topo">
+          <span class="modal-numero" id="modal-numero">Nº 01</span>
+          <span class="modal-categoria" id="modal-categoria">Newborn · Estúdio</span>
+        </div>
+
+        <button type="button" class="botao-fechar-modal" id="botao-fechar-modal" aria-label="Fechar visualização e voltar à galeria">
+          <span>Fechar</span>
+          <kbd aria-hidden="true">Esc</kbd>
+        </button>
+      </header>
+
+      <div class="modal-corpo">
+        <div class="modal-palco-foto" id="modal-palco-foto">
+          <button type="button" class="modal-seta modal-seta-ant" id="modal-seta-ant" aria-label="Fotografia anterior desta sessão">
+            ←
+          </button>
+
+          <figure class="modal-figura-principal">
+            <picture id="modal-picture-principal">
+              <img
+                id="modal-imagem-principal"
+                src="midia/fotos/newborn-balanco-1280w.webp"
+                alt=""
+                width="1280"
+                height="853"
+                decoding="async"
+              >
+            </picture>
+            <figcaption class="modal-legenda-foto" id="modal-legenda-foto"></figcaption>
+          </figure>
+
+          <button type="button" class="modal-seta modal-seta-prox" id="modal-seta-prox" aria-label="Próxima fotografia desta sessão">
+            →
+          </button>
+        </div>
+
+        <aside class="modal-painel-editorial">
+          <h3 id="modal-titulo-historia" class="modal-titulo">No tamanho exato dos primeiros dias</h3>
+          <p id="modal-resumo-historia" class="modal-resumo"></p>
+          <p id="modal-nota-tecnica" class="modal-nota-tecnica"></p>
+
+          <div class="modal-tira-miniaturas" id="modal-tira-miniaturas" aria-label="Fotografias desta mesma sessão"></div>
+
+          <div class="modal-rodape-acoes">
+            <a href="#conversa" class="botao-primario botao-modal-conversa" id="botao-modal-conversa">
+              Conversar sobre um ensaio assim
+            </a>
+            <button type="button" class="botao-texto botao-voltar-galeria" id="botao-voltar-galeria">
+              ← Voltar à posição na galeria
+            </button>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Scripts enxutos, sem empilhar bibliotecas externas -->
+  <script src="js/dados-site.js" defer></script>
+  <script src="js/experiencia.js" defer></script>
+</body>
+</html>
